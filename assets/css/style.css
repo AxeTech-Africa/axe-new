@@ -15473,7 +15473,7 @@ header.header-four .nav-area .navbar-nav-1 .menu-item .mega-menu-01.sub-menu .si
   background-position: center;
   background-repeat: repeat;
   height: 700px;
-  background-color: #303827;
+  background-color:black;
 }
 
 .banner-one-wrapper .title {
@@ -29408,6 +29408,226 @@ body.servi-ce-details .rts-footer-two-area {
   text-decoration: underline;
   text-decoration-color: #66BB6A; /* Underline in Light Green */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header-area {
+  background-color: white !important; 
+}
+
+
+
+.nav-area ul.navbar-nav-1 li a,
+.nav-area ul.navbar-nav-1 li a span,
+.menu-btn svg,
+.search-icon-header svg path {
+    color: black !important;
+    fill: black !important; 
+}
+
+
+
+
+
+
+
+
+.rts_hero__title {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .rts_hero__title {
+    width: 93%;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #67bb6b, #000);
+  color: #fff;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background: #67bb6b;
+  color: #fff;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #57a65a;
+}
+
+/* Section Titles */
+.section-title {
+  text-align: center;
+  margin: 40px 0 20px;
+  font-size: 2.5rem;
+  color: #67bb6b;
+}
+
+/* Grid Layouts */
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+/* Services Grid */
+.services-grid {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #67bb6b;
+}
+
+/* Portfolio Grid */
+.portfolio-grid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.portfolio-item {
+  background: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.portfolio-item img {
+  width: 100%;
+  display: block;
+}
+
+.portfolio-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.portfolio-info h3 {
+  color: #67bb6b;
+  margin-bottom: 10px;
+}
+
+/* Contact Section */
+#contact {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#contact p {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+}
+
+
+
+
+
+.shape-image {
+  width: 100%; /* Container takes full width */
+}
+
+.shape-image img {
+  width: 100%;      /* Image scales to container's width */
+  height: auto;     /* Maintain aspect ratio */
+  object-fit: contain; /* Ensures the entire image is visible without cropping */
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*# sourceMappingURL=../maps/style.css.map */
