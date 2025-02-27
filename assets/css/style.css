@@ -14511,7 +14511,7 @@ xclip
   height: calc(100% + 20rem);
   z-index: -1;
   pointer-events: none;
-  background-image: url(../images/banner/shape-nois.png);
+  /* background-image: url(../images/banner/shape-nois.png); */
   background-position: 50%;
   animation: BgNoise 1s steps(2) infinite;
 }
@@ -15472,7 +15472,7 @@ header.header-four .nav-area .navbar-nav-1 .menu-item .mega-menu-01.sub-menu .si
   background-image: url(../images/banner/bg-shape.png);
   background-position: center;
   background-repeat: repeat;
-  height: 700px;
+  height: 580px;
   /* background-color:black; */
 }
 @media (max-width: 768px) {
