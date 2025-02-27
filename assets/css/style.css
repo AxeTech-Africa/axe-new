@@ -29618,6 +29618,10 @@ footer {
 }
 
 
+.menu-item-has-children:hover .sub-menu,
+.menu-item-has-children:focus-within .sub-menu {
+    display: block;
+}
 
 
 
