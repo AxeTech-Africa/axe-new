@@ -15473,8 +15473,32 @@ header.header-four .nav-area .navbar-nav-1 .menu-item .mega-menu-01.sub-menu .si
   background-position: center;
   background-repeat: repeat;
   height: 700px;
-  background-color:black;
+  /* background-color:black; */
 }
+@media (max-width: 768px) {
+  .banner-area.banner-style-one {
+      display: block !important; /* Remove any grid layout */
+      background: none !important; /* Remove any background pattern */
+      background-image: url(../images/banner/bg-shape.png);
+      background-position: center;
+      background-repeat: repeat;
+      height: 400px;
+      
+  }
+  .banner-area .shape-image img {
+    width: 100% !important; /* Ensure image fits in mobile */
+    height: 290px !important;
+    object-fit: cover; /* Ensure it scales properly */
+}
+ 
+}
+@media (max-width: 768px) {
+  .banner-one-wrapper h3.title.rts_hero__title {
+      font-size: 20px !important; /* Reduce font size for mobile */
+      margin-top: 40px !important; /* Adjust top margin */
+  }
+}
+
 
 .banner-one-wrapper .title {
   color: #fff;
@@ -15612,9 +15636,15 @@ header.header-four .nav-area .navbar-nav-1 .menu-item .mega-menu-01.sub-menu .si
 }
 .banner-area.banner-style-one .shape-image {
   position: absolute;
-  left: 90px;
-  top: 150px;
+  /* left: 90px;
+  top: 150px; */
 }
+
+
+
+
+
+
 .banner-area.banner-style-one .shape-image-2 {
   position: absolute;
   left: 62%;
@@ -29618,10 +29648,6 @@ footer {
 }
 
 
-.menu-item-has-children:hover .sub-menu,
-.menu-item-has-children:focus-within .sub-menu {
-    display: block;
-}
 
 
 
